@@ -14,16 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('master/masterLayout');
+    return view('/welcome');
 });
-Route::get('/hal1', function () {
-    return view('hal-1');
+Route::get('/profil', function () {
+    return view('Profil');
 });
-Route::get('/hal2', function () {
-    return view('hal-2');
+Route::get('/blank', function () {
+    return view('Blank');
 });
-Route::get('/hal3', function () {
-    return view('hal-3');
+Route::get('/cards', function () {
+    return view('Cards');
 });
 
 // use App\Http\Controllers\parameters;
