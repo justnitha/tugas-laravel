@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('/welcome');
+    return view('master.masterLayout');
 });
 Route::get('/profil', function () {
     return view('Profil');
@@ -25,6 +25,12 @@ Route::get('/blank', function () {
 Route::get('/cards', function () {
     return view('Cards');
 });
+
+
+
+
+
+
 
 // use App\Http\Controllers\parameters;
 // Route::get('/{username}',

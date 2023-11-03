@@ -58,9 +58,7 @@
 			</footer>
 		</div>
 	</div>
-
 	<script src="{{ asset('static/js/app.js')}}"></script>
-
 </body>
 
 </html>
